@@ -51,11 +51,11 @@ async def _human_time_duration(seconds):
 )
 async def start_private(client: Client, message: Message):
  await message.reply_photo(
-        photo=f"https://telegra.ph/file/a82f511eb98f58a685e32.jpg",
+        photo=f"https://telegra.ph/file/d194543d0a030c47aa433.jpg",
         caption=f"""ʜᴇʟʟᴏ✨ **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
  **ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄᴀʟʟ !!**
  **ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ 💫**
- **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @Techno_Trickop**""",
+ **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @RG_Anime_Group **""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -68,7 +68,7 @@ async def start_private(client: Client, message: Message):
                     "• Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
                 [
                     InlineKeyboardButton("• Oᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/herox_xd"),
+                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -80,7 +80,7 @@ async def start_private(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Sᴏᴜʀᴄᴇ Cᴏᴅᴇ •", url="https://github.com/SJMxADITI/TrickyMusic"
+                        "• Anime Channel•", url="https://t.me/Dub_Anime_in_Hindi"
                     )
                 ],
             ]
